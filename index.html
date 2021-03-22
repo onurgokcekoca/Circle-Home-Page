@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <section class="navbar">
+        <div class="logo">Circle</div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="texts">
+
+            <div class="inner-text inner-text-1">
+                <div class="inner-inner">
+                    <h4>Step 1</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis laboriosam, tenetur quos nemo labore nam.</p>
+                </div>
+                <div class="inner-inner">
+                    <h4>Step 1</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis laboriosam, tenetur quos nemo labore nam.</p>
+                </div>
+            </div>
+            <div class="inner-text inner-text-2">
+                <div class="inner-inner">
+                    <h4>Step 1</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis laboriosam, tenetur quos nemo labore nam.</p>
+                </div>
+                <div class="inner-inner">
+                    <h4>Step 1</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis laboriosam, tenetur quos nemo labore nam.</p>
+                </div>
+            </div>
+            <div class="inner-text inner-text-1">
+                <div class="inner-inner">
+                    <h4>Step 1</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis laboriosam, tenetur quos nemo labore nam.</p>
+                </div>
+                <div class="inner-inner">
+                    <h4>Step 1</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis laboriosam, tenetur quos nemo labore nam.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="circles">
+            <div class="blue-circles-home">
+                <div class="blue">
+                    <div class="blue-inner"></div>
+                    <div class="blue-inner"></div>
+                </div>
+
+                <div class="blue blue-2">
+                    <div class="blue-inner"></div>
+                    <div class="blue-inner"></div>
+                </div>
+
+                <div class="blue">
+                    <div class="blue-inner"></div>
+                    <div class="blue-inner"></div>
+                </div>
+            </div>
+
+            <div class="inner-circle" onclick="toggleFunc()">
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        function toggleFunc(){
+            const active = document.querySelector(".texts");
+            active.classList.toggle("active")
+            const active2 = document.querySelector(".blue-circles-home");
+            active2.classList.toggle("active")
+            const active3 = document.querySelector(".inner-circle");
+            active3.classList.toggle("active")
+        }
+    </script>
+
+</body>
+</html>
