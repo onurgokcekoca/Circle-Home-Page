@@ -4,5 +4,3 @@
 
 asdasdasdasdasdasd
 asdasdasdasdasda
-
-[lorem ipsum]{http://google.com}
