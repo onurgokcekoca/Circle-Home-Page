@@ -5,4 +5,4 @@
 asdasdasdasdasdasd
 asdasdasdasdasda
 
-[lorem ipsum]{htppm://google.com}
+[lorem ipsum]{http://google.com}
